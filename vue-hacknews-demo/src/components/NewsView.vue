@@ -11,14 +11,14 @@
 </template>
 
 <script>
-  import item from './item.vue'
+  import Item from './item.vue'
   import store from '../store'
 
   export default {
     name: 'NewsView',
 
     components: {
-      item
+      Item
     },
 
     data () {

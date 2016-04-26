@@ -7,7 +7,7 @@
       <h1>
         <a href="#/">Hacker News</a>
       </h1>
-      <span>
+      <span class="source">
         Build with <a href="https://vuejs.org" target="_blank">Vue.js</a> |
         <a href="https://github.com/hentaicracker/vue-webpack-demo" target="_blank">source</a>
       </span>
@@ -40,9 +40,10 @@ a
   background-color $bg
   position relative
   width 85%
+  min-height 80px
   margin 0 auto
 
-#header
+.header
   background-color $orange
   height 24px
   position relative
@@ -73,7 +74,7 @@ a
 
 .view
   position absolute
-  background-color $gray
+  background-color $bg
   width 100%
   transition opacity 0.2s ease
   box-sizing border-box

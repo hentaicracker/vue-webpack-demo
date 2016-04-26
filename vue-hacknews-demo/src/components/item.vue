@@ -20,7 +20,7 @@
 
 <script>
   export default {
-    name: 'Item',
+    name: 'item',
 
     props: {
       item: Object,
@@ -33,7 +33,7 @@
       },
       showInfo () {
         return this.item.type === 'story' || this.item.type === 'poll'
-      }，
+      },
       showDomain () {
         return this.item.type === 'story'
       }
